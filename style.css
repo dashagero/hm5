@@ -1,0 +1,109 @@
+.wrapper {
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(235, 221, 204);
+}
+.container1{
+width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.container1 div{
+ width: 750px;
+  height: 70px;
+  background: rgb(13, 126, 111);
+  text-align: center;
+  padding-top: 40px;
+  font-size: 30px;
+}
+.container2 {
+    margin-top: -90px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: rgb(245, 239, 159);
+    justify-content: space-between;
+    }
+.container2 div {
+    background: rgb(13, 126, 111);
+    margin-top: 15px;
+    width: 110px;
+    height: 70px;
+}
+.container2 .punkt1{
+ margin-left: 45px;
+}
+.container2 .punkt6{
+ margin-right: 45px;
+}
+.container3{
+    width: 100%;
+        height: 100px;
+        display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+   }
+    .container3 div{
+     width: 400px;
+      height: 40px;
+      background: rgb(13, 126, 111);
+      text-align: center;
+      margin-top: 40px;
+      font-size: 30px;
+    }
+    .container4{
+        width: 1200px;
+           margin-left: 220px;
+           margin-top: -100px ;
+            display: flex;
+           justify-content: flex-end;
+           flex-wrap: wrap;
+       }
+        .container4 div{
+            margin: 30px;
+            flex-direction: row-reverse;
+         width: 250px;
+          height: 250px;
+          
+          text-align: center;
+          margin-top: 40px;
+          font-size: 30px;
+          border-radius: 50%;
+        }
+        .foto1{
+            border-radius: 50%;
+            background-image: url(./images/IMG_07711.jpg);
+background-size: cover;
+        }
+        .foto2{
+            border-radius: 50%;
+            background-image: url(./images/depositphotos_19871697-stock-photo-beautiful-face-with-beautiful-closed.jpg);
+background-size: cover;
+        }
+        .foto3{
+            border-radius: 50%;
+            background-image: url(./images/IMG_07711.jpg);
+background-size: cover;
+        }
+        .foto4{
+            border-radius: 50%;
+            background-image: url(./images/depositphotos_19871697-stock-photo-beautiful-face-with-beautiful-closed.jpg);
+background-size: cover;
+        }
+        .foto5{
+            border-radius: 50%;
+            background-image: url(./images/IMG_07711.jpg);
+background-size: cover;
+        }
+        .foto6{
+            border-radius: 50%;
+            background-image: url(./images/depositphotos_19871697-stock-photo-beautiful-face-with-beautiful-closed.jpg);
+background-size: cover;
+        }
+        .footer{
+            margin-top: 100px;
+            width: 100%;
+            height: 100px;
+            background: rgb(13, 126, 111);
+        }
